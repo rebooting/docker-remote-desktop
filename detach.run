@@ -4,5 +4,5 @@ docker run --detach \
     --publish="3389:3389/tcp" \
     --name="remote-desktop" \
     --env SYSUSER=ubuntu \
-    --env SYSPASS=ubuntu\ 
+    --env SYSPASS=ubuntu \ 
     docker-remote-desktop:latest

@@ -1,5 +1,11 @@
 # docker-remote-desktop
 
+# export env SYSPASS first
+export SYSUSER=USER
+export SYSPASS=PASSWORD
+
+
+
 [![Build Status](https://travis-ci.com/scottyhardy/docker-remote-desktop.svg?branch=master)](https://travis-ci.com/scottyhardy/docker-remote-desktop)
 
 Docker image with RDP server using [xrdp](http://xrdp.org) on Ubuntu with [XFCE](https://xfce.org).
@@ -67,8 +73,8 @@ NOTE: To connect to a remote machine, it will require TCP port 3389 to be expose
 To log in, use the following default user account details:
 
 ```bash
-Username: ubuntu
-Password: ubuntu
+Username: SYSUSER
+Password: SYSPASS
 ```
 
 ![Screenshot of login prompt](https://raw.githubusercontent.com/scottyhardy/docker-remote-desktop/master/screenshot_1.png)

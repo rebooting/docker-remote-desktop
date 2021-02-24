@@ -1,9 +1,13 @@
 # docker-remote-desktop
 
-# export env SYSPASS first
+
+## changes 
+
+```
+export env SYSPASS first
 export SYSUSER=USER
 export SYSPASS=PASSWORD
-
+```
 
 
 [![Build Status](https://travis-ci.com/scottyhardy/docker-remote-desktop.svg?branch=master)](https://travis-ci.com/scottyhardy/docker-remote-desktop)

@@ -5,7 +5,7 @@
 HashPass=`openssl passwd $SYSPASS`
 
 groupadd --gid 1020 $SYSUSER
-useradd --shell /bin/bash --uid 1020 --gid 1020 --password $HashPass --create-home --home-dir /home/ubuntu ubuntu
+useradd --shell /bin/bash --uid 1020 --gid 1020 --password $HashPass --create-home --home-dir /home/$SYSUSER $SYSUSER
 
 # Start xrdp sesman service
 /usr/sbin/xrdp-sesman
